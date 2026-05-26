@@ -148,7 +148,7 @@ export default function App() {
 
         <section id="servicios" className="bg-white px-6 py-20 text-slate-950">
           <div className="mx-auto max-w-7xl">
-            <div className="mb-12 max-w-3xl"><p className="mb-3 text-sm font-bold uppercase tracking-[0.25em] text-eliteBlue">Servicios y precios</p><h2 className="text-4xl font-black md:text-5xl">Soluciones digitales para doctores exigentes.</h2><p className="mt-4 text-slate-600">Precios en MXN. Los trabajos urgentes tienen costo adicional y algunos servicios pueden variar según indicaciones o complejidad del caso.</p></div>
+            <div className="mb-12 max-w-3xl"><p className="mb-3 text-sm font-bold uppercase tracking-[0.25em] text-eliteBlue">Servicios y precios</p><h2 className="text-4xl font-black md:text-5xl">Calidad PREMIUM para dentistas PREMIUM</h2><p className="mt-4 text-slate-600">Precios en MXN. Los trabajos urgentes tienen costo adicional y algunos servicios pueden variar según indicaciones o complejidad del caso.</p></div>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {services.map((service) => <Card key={service.name} className="border-slate-200 bg-white transition hover:-translate-y-1 hover:shadow-xl"><div className="p-6"><div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-lime-50 text-eliteBlue"><BadgeDollarSign className="h-6 w-6" /></div><p className="text-lg font-black">{service.name}</p><p className="mt-2 text-xl font-black text-eliteBlue">{service.price}</p><p className="mt-2 text-sm text-slate-500">{service.detail}</p></div></Card>)}
             </div>
