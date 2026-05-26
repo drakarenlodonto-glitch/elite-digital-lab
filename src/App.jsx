@@ -69,8 +69,7 @@ export default function App() {
     { name: "Guarda miorrelajante", price: "$2,000 MXN", detail: "Diseño y fabricación" },
     { name: "Modelos 3D", price: "$250 MXN", detail: "Impresión de modelos" },
     { name: "Encerado digital", price: "$200 MXN", detail: "Por unidad" },
-    { name: "Escaneo de modelos", price: "$250 MXN", detail: "Envío de archivo STL" },
-    { name: "Escaneo intraoral a domicilio", price: "$500 MXN", detail: "Servicio local" },
+    { name: "Escaneo intraoral a domicilio", price: "$500 MXN", detail: "Envío de archivo STL" },
     { name: "Guía quirúrgica", price: "$2,000 MXN", detail: "1 a 2 unidades" },
   ];
 
