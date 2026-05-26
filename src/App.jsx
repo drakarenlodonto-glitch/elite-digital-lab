@@ -22,7 +22,7 @@ const galleryImages = [
   { src: "/assets/encia-vestibular.jpeg", title: "Caracterización de encía", type: "Estética gingival", note: "Caso real" },
   { src: "/assets/encia-lingual.jpeg", title: "Restauración sobre modelo", type: "Diseño y acabado", note: "Caso real" },
   { src: "/assets/caracterizacion-encia.jpeg", title: "Estratificación estética", type: "Alta caracterización", note: "Caso real" },
-  { src: "emax crista.jpeg", title: "Unidades de E.max ", type: "Restauración estética", note: "Caso real" },
+  { src: "/assets/emax-crista.jpeg", title: "Unidades de E.max ", type: "Restauración estética", note: "Caso real" },
   { src: "/assets/modelo-funcional.jpeg", title: "Modelo funcional 3D", type: "Trabajo digital", note: "Modelo real" },
   { src: "/assets/dos-guardas.jpeg", title: "Guardas miorrelajantes", type: "Acrílico y ajuste", note: "Caso real" },
 ];
